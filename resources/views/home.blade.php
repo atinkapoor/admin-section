@@ -1,0 +1,12 @@
+@extends('layouts.default')
+@section('title', $home_page_title)
+@section('content')
+    @include('partials.home-logo')
+    @include('partials.home_banner')
+    @include('partials.section-workout-info')
+    @include('partials.section-ready')
+    @include('partials.section-location')
+    @include('partials.section-alone')
+    @include('partials.section-services')
+    @include('partials.section-fitness')
+@endsection
